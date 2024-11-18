@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(config.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--font-family);
+}
+/* header */
+.header{
+    display: flex;
+    background-color: white !important;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+/* nav-bar */
+.nav-menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+.nav-menu ul{
+    gap: 100px;
+    display: flex;
+}
+.nav-menu li{
+    font-size: 25px;
+    display: flex;
+    text-decoration: none;
+}
+.nav-menu li a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* nav-logo */
+.nav-logo{
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+.first-content{
+    background-color: var(--first-selection-bg-color);
+    justify-content: flex-end;
+    display: flex;
+}
+
+.first-content img{
+    width: 45%;
+    height: 800px;
+}
+.first-content-main-text{
+    position: absolute;
+    top: 250px;
+    right: 1200px;
+    font-size: 50px;
+    color: snow;
+}
+.first-content-description-text{
+    position: absolute;
+    top: 400px;
+    right: 1010px;
+    font-size: 20px;
+    color: snow;
+    
+}
+.first-content-btn-container{
+    width: 150px;
+    border: 3px solid red;
+    background-color: #F14A0E;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-content-btn{
+    text-decoration: none;
+    position: absolute;
+    top: 500px;
+    right: 1515px;
+    font-size: 20px;
+    color: snow;
+    font-weight: 900;   
+}
